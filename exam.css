@@ -1,0 +1,174 @@
+
+          #div0{
+            width: 1500px;height: 650px;
+            margin: 0 auto;
+            background: url(../img/bg.jpg)repeat;
+          }
+          #div1{
+            width: 100%;height: 30px;
+            background-color: #7e0001;
+            margin: 0 auto;
+          }
+          #div2{
+            width: 1000px;height: 106px;
+            margin: 0 auto;
+          }
+          #div21{
+            height: 106px;width: 400px;
+            float: left;
+            line-height: 106px;
+            position: relative;
+          }
+          #div21 img{
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+          }
+          #div22{
+            height: 106px;width: 400px;
+            text-align: right;
+            float: left;
+            margin-left: 200px;
+            line-height: 106px;
+          }
+          #div3{
+            width: 1000px;height: 45px;
+            margin-left: 250px;
+            background: url(../img/nav-bg.jpg)repeat;
+            position: absolute;
+            z-index: 1;
+            
+          }
+          #div4{
+            width: 1000px;height: 360px;
+            margin-top: 55px;
+            margin-left: 250px;
+            position: absolute;
+            z-index: 0;
+          }
+          #div41{
+            height: 360px;
+            width: 48.5%;
+            float: left;
+            margin-left: 0;
+            
+            border: 2px solid #7e0001;
+          }
+          #div410{
+            height: 45px;
+            width: 100%;
+            margin-top: 0;
+            background: #7e0001;
+          }
+          #div411{
+            height: 45px;
+            margin-left: 10px;
+            width: 100px;
+            color:white;
+            font-size: 21px;
+            font-weight: bold;
+            text-align: left;
+            float: left;
+            line-height: 45px;
+          }
+          #div412{
+            height: 45px;
+            margin-right: 10px;
+            width: 100px;
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: right;
+            float: right;
+            line-height: 45px;
+          }
+          #div42{
+            height: 360px;width: 48.5%;
+            margin-left: 22px;
+            float: left;
+            border: 2px solid #7e0001;
+          }
+          #div420{
+            height: 45px;
+            width: 100%;
+            margin-top: 0;
+            background: #7e0001;
+          }
+          #div421{
+            height: 45px;
+            margin-left: 10px;
+            width: 100px;
+            color: white;
+            font-size: 21px;
+            font-weight: bold;
+            text-align: left;
+            float: left;
+            line-height: 45px;
+          }
+          #div422{
+            height: 45px;
+            margin-right: 10px;
+            width: 100px;
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+            text-align: right;
+            line-height: 45px;
+            float: right;
+          }
+          #div7{
+            width: 100%;height: 60px;
+            background-color: #7e0001;
+            margin-top: 435px;
+            line-height: 60px;
+            text-align: center;
+            font-size: 14px;
+            color: white;
+          }
+          #clock{
+            text-align: left;
+            width: 400px;
+            height: 30px;
+            color: white;
+            font-size: 14px;
+            float: left;
+           line-height: 30px;
+           margin-left: 250px;
+          }
+          #a1{
+             text-align: right;
+             width: 200px;
+             height: 30px;
+             color: white;
+             margin-left: 400px;
+             font-size: 14px;
+             float: left;
+             line-height: 30px;
+          }
+          ul{
+            margin: 0px auto;padding: 0px;
+          }
+          ul li{
+            height: 45px;width: 130px;
+            list-style: none;float: left;
+            display: inline;font: 18px;color: white;
+           
+            text-align: center;
+            line-height: 45px;
+           
+          }
+          ul li a{
+            color:white;width:130px;margin: 0px;padding: 0px 0px 0px 0px;
+            text-decoration: none;display: block;line-height: 45px;
+          }
+          ul li ul li{height: 21px;background: url(../img/bg.jpg)repeat;}
+          ul li ul li a{line-height: 20px;color: black;}
+          ul li a:hover{color: red;}
+          ul li ul{visibility: hidden;}
+          ul li:hover ul{visibility: visible;}
+          ul li ul li a:hover{color: black;}
+
+          
+
+
+   

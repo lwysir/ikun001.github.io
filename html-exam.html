@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>福建师范大学教务处</title>
+    <link type="text/css" rel="stylesheet" href="exam.css">
+</head>
+<body>
+    <div id="div0">
+          <div id="div1">
+            <div id="clock"></div>
+            <div id="a1">旧版回顾</div>
+          </div>
+          <div id="div2">
+              <div id="div21"><a href="https://www.fjnu.edu.cn"><img src="../img/logo.png" ></a></div>
+              <div id="div22"><img src="../img/xiaoxun.png"></div>
+          </div>
+          <div id="div3">
+              <ul>
+                <li><a href="#">师大首页</a></li>
+                <li><a href="#">网站首页</a></li>
+                <li><a href="#">科室设计</a></li>
+                <li><a href="#">规章制度</a>
+                     <ul>
+                       <li><a href="#">上级文件</a></li>
+                       <li><a href="#">学校文件</a></li>
+                     </ul>
+                </li>
+                <li><a href="#">教学研究</a>
+                  <ul>
+                     <li><a href="#">领导讲话</a></li>
+                     <li><a href="#">重要文件</a></li>
+                     <li><a href="#">院系经验</a></li>
+                  </ul>
+                </li>
+                <li><a href="#">教学建设与发展</a>
+                      <ul>
+                        <li><a href="#">专业</a></li>
+                        <li><a href="#">教师</a></li>
+                        <li><a href="#">课程</a></li>
+                        <li><a href="#">教材</a></li>
+                      </ul>
+                </li>
+                <li><a href="#">教学运行与保障</a>
+                     <ul>
+                      <li><a href="#">学籍管理</a></li>
+                      <li><a href="#">学位管理</a></li>
+                      <li><a href="#">成绩管理</a></li>
+                      <li><a href="#">选课管理</a></li>
+                     </ul>
+                </li>
+              </ul>
+          </div>
+          <div id="div4">
+            <div id="div41"><div id="div410">
+                <div id="div411">通知公告</div>
+                <div id="div412">更多>></div>
+            </div>
+            </div>
+            <div id="div42">
+              <div id="div420">
+                <div id="div421">工作动态</div>
+                <div id="div422">更多>></div>
+              </div>
+            </div>
+          </div>
+          <div id="div7">
+               版权所有©福建师范大学教务处
+          </div>
+    </div>
+    <script>
+      function showTime(clock){
+      var now=new Date();
+      var year=now.getFullYear();
+      var month=now.getMonth();
+      var day=now.getDate();
+      var hour=now.getHours();
+      var minu=now.getMinutes();
+      var second=now.getSeconds();
+      month=month+1;
+      var arr_work=new Array("星期日","星期一","星期二","星期三","星期四","星期五","星期六");
+      var week=arr_work[now.getDay()];
+      var time=year+"年"+month+"月"+day+"日 "+week+" "+hour+":"+minu+":"+second;
+      clock.innerHTML=time;
+      }
+      window.onload = function(){
+    var clock = document.getElementById("clock");
+    window.setInterval("showTime(clock)",1000);
+    }
+    </script>
+</body>
+</html>
